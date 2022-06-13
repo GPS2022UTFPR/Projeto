@@ -1,0 +1,112 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.wrapper {
+    padding: 5vh 10vw;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.textbox-container {
+    margin-right: 15vw;
+    width: 35vw;
+    height: 50vh;
+}
+
+.text-title {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.text-body {
+    font-size: 24px;
+}
+
+.loginbox-container {
+    width: 30vw;
+    height: 50vh;
+    display: flexbox;
+    border-radius: 1vh;
+    box-shadow: 1px 5px 30px rgb(160,159,159);
+}
+
+.loginbox-container:hover {
+    box-shadow: 1px 10px 40px rgb(160,159,159);
+}
+
+.loginbox {
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-login {
+    font-weight: bold;
+    text-align: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-login {
+    margin: 1vh;
+    padding: 0.75vh;
+    border-radius: 1vh;
+    font-size: larger;
+}
+
+.form-password {
+    margin: 1vh;
+    padding: 0.75vh;
+    border-radius: 1vh;
+    font-size: larger;
+}
+
+.btn-login {
+    margin: 1vh;
+    padding: 0.75vh;
+    border: 0;
+    border-radius: 1vh;
+    font-size: larger;
+    color: #fff;
+    background-color: #06d;
+}
+
+.btn-login:hover {
+    background-color: #037;
+}
+
+.btn-visitor {
+    margin: 1vh;
+    padding: 0.75vh;
+    border: 0;
+    border-radius: 1vh;
+    font-size: larger;
+    color: #fff;
+    background-color: #999;
+}
+
+.btn-visitor:hover {
+    background-color: #666;
+}
+
+.footer {
+    margin-left: 5vw;
+    width: 95vw;
+    height: 10vh;
+    border-top: 1px #999;
+
+}
