@@ -1,0 +1,53 @@
+body {
+    overflow-x: hidden;
+}
+
+/*Usado no Header*/
+.text-style {
+    color: #000;
+}
+
+.border-style {
+    border-color: #444;
+}
+
+.color-style {
+    background-color: #444;
+}
+
+.hover-style:hover {
+    border-color: #444;
+    background-color: #444;
+}
+
+.logo {
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+}
+
+/*Usado nas features*/
+.icon-style {
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.org-text {
+    text-align: justify;
+}
+
+.left-10 {
+    margin-left: 50px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.opacity-7 {
+    opacity: 0.7;
+}
+
+.opacity-8 {
+    opacity: 0.7;
+}
+

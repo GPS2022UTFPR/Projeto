@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo-branco.png">
+    <title>UniHELP: Melhorando sua formação</title>
+</head>
+<body>
+    <!-- Secao do Header -->
+    <div class="container">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                <img src="img/logo.png" class="bi me-2" width="50" height="50"/>
+                <span class="fs-4 logo">UniHELP</span>
+            </a>
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li>
+                    <a href="/  " class="nav-link px-2 link-secondary" aria-current="page">Home</a>
+                </li>
+                <li>
+                    <a href="/" class="nav-link px-2 link-dark">Alunos</a>
+                </li>
+                <li>
+                    <a href="/" class="nav-link px-2 link-dark">Empresas</a>
+                </li>
+                <li>
+                    <a href="/" class="nav-link px-2 link-dark">Faculdade</a>
+                </li>
+                <li>
+                    <a href="/" class="nav-link px-2 link-dark">Contato</a>
+                </li>
+            </ul>
+            <div class="col-md-3 text-end">
+                <button type="button" class="btn btn-outline-primary me-2 text-style border-style hover-style">Login</button>
+                <button type="button" class="btn btn-primary color-style border-style hover-style">Sign-up</button>
+            </div>
+        </header>
+    </div>
+
+    <!-- Secao do Carrosel -->
+    <main>
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/Strategy.jpg" class="bd-placeholder-img opacity-7" width="100%" height="400" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <div class="container">
+                <div class="carousel-caption text-start">
+                  <h1 class="text-style">Estrátegia de aprendizagem</h1>
+                  <p class="text-style">Conheça os principais perfis de estudantes que as empresas procuram</p>
+                  <p><a class="btn btn-primary color-style border-style hover-style">Saiba mais</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/UTFPR.jpeg" class="bd-placeholder-img opacity-8" width="100%" height="400" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1 class="text-style">UTFPR Cornélio Procópio se junta ao time...</h1>
+                  <p><a class="btn btn-primary color-style border-style hover-style">Como assim...</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </main>
+
+    <!-- Secao da Features -->
+    <div class="container px-4 py-5">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="feature col">
+                <img class="icon-style" src="img/Student-MaleFemale-icon.jpg" height="70" width="70">
+                <h2>Alunos</h2>
+                <p class="org-text">
+                    Fique por dentro de todas as novidades e oportunidades para você aluno. Entre
+                    agora no sistema e aproveite todos os benefícios disponíveis.
+                </p>
+                <a class="icon-link">Entrar na seção dos Alunos</a>
+            </div>
+            <div class="feature col">
+                <img class="icon-style" src="img/enterprise.png" height="70" width="70">
+                <h2>Empresas</h2>
+                <p class="org-text">
+                    Ótimas oportunidades de negócios para vocês empresas. Entre na seção e fique por
+                    dentro dos melhores candidatos e suas qualificações para as vagas de trabalho.
+                </p>
+                <a class="icon-link">Entrar na seção das Empresas</a>
+            </div>
+            <div class="feature col">
+                <img class="icon-style" src="img/university.png" height="70" width="70">
+                <h2>Universidades</h2>
+                <p class="org-text">
+                    Universidades parceiras tenham vantagens de um novo método de ensino integrado. Entre
+                    na seção e veja os benefícios para vocês com base no interesse de alunos e empresas. 
+                </p>
+                <a class="icon-link">Entrar na seção das Universidades</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Secao do Footer-->
+    <footer class="pt-8 my-md-5 pt-md-5 border-top left-10">
+        <div class="row">
+            <div class="col-md-8">
+                <small class="d-block mb-3 text-muted">© - 2022 Anonymous</small>
+            </div>
+            <div class="col-md-2">
+                <img class="icon-style" src="img/twitter.png" height="30" width="30">
+                <img class="icon-style" src="img/insta.png" height="30" width="30">
+                <img class="icon-style" src="img/face.png" height="30" width="30">
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+</body>
+</html>
