@@ -1,0 +1,23 @@
+.text-style {
+    color: #000;
+}
+
+.border-style {
+    border-color: #444;
+}
+
+.hover-style:hover {
+    background-color: #444;
+    border-color: #444;
+}
+
+.color-style {
+    background-color: #444;
+}
+
+.logo {
+    font-size: 1.2rem;
+    /*text-transform: uppercase;*/
+    letter-spacing: 4px;
+    text-decoration: none;
+}
