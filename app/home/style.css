@@ -23,6 +23,10 @@
     text-decoration: none;
 }
 
+.right-header {
+    padding-right: 1vw;
+}
+
 /* Main */
 .carousel-item {
     height: 32rem;
